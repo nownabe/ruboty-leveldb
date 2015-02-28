@@ -5,7 +5,7 @@ module Ruboty
     class Leveldb < Base
       KEY = "brain"
 
-      env :LEVELDB_FILE, "LevelDB path (default: ruboty.ldb)", optional: true
+      env :LEVELDB_PATH, "LevelDB path (default: ruboty.ldb)", optional: true
       env :LEVELDB_SAVE_INTERVAL,
         "Interval sec to save data to LevelDB (default: 5)",
         optional: true
