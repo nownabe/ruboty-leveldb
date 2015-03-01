@@ -1,26 +1,18 @@
 # Ruboty::Leveldb
+Store [Ruboty](https://github.com/r7kamura/ruboty/)'s memory in LevelDB.
 
-Store Ruboty's memory in LevelDB.
-
-## Installation
-
-Add this line to your application's Gemfile:
+# Usage
+Add this line to your Ruboty's Gemfile:
 
 ```ruby
-gem 'ruboty-leveldb'
+gem "ruboty-leveldb"
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ruboty-leveldb
-
-## Usage
-
-TODO: Write usage instructions here
+# ENV
+```bash
+LEVELDB_PATH          - LevelDB path (default: ruboty.ldb)
+LEVELDB_SAVE_INTERVAL - Interval sec to save data to LevelDB (default: 5)
+```
 
 ## Contributing
 
