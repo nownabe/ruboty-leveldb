@@ -27,7 +27,7 @@ module Ruboty
       end
 
       def db_file
-        ENV["LEVELDB_FILE"] || "ruboty.ldb"
+        ENV["LEVELDB_PATH"] || "ruboty.ldb"
       end
 
       def interval
