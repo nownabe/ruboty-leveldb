@@ -1,4 +1,4 @@
-# Ruboty::Leveldb [![Code Climate](https://codeclimate.com/github/nownabe/ruboty-leveldb/badges/gpa.svg)](https://codeclimate.com/github/nownabe/ruboty-leveldb)
+# Ruboty::Leveldb [![Code Climate](https://codeclimate.com/github/nownabe/ruboty-leveldb/badges/gpa.svg)](https://codeclimate.com/github/nownabe/ruboty-leveldb) [![Gem Version](https://badge.fury.io/rb/ruboty-leveldb.svg)](http://badge.fury.io/rb/ruboty-leveldb)
 Store [Ruboty](https://github.com/r7kamura/ruboty/)'s memory in LevelDB.
 
 # Usage
